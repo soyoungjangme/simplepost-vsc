@@ -21,6 +21,15 @@ body {
     padding: 5px;
 }
 
+.btn-write a {
+    text-decoration: none;
+    color: white;
+    background-color: #2e2e2e;
+    border-radius: 5px;
+    padding: 3px 15px;
+    font-size: small;
+}
+
 .list-post-box {
     padding: 30px;
 }
@@ -53,4 +62,9 @@ td {
 
 td:nth-child(2) {
     text-align: left;
+}
+
+td > a {
+    text-decoration: none;
+    color: black;
 }
