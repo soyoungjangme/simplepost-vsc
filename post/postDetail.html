@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/postDetail.css">
-    <title>Document</title>
+    <title>게시물상세</title>
 </head>
 <body>
     <div class="detail-container">
@@ -22,7 +22,7 @@
                     <div class="post-title-btn">
                         <div class="post-title-info">
                             <p>제목: </p>
-                            <input type="text" name="post_title" value="제목임" readonly/>
+                            <input type="text" name="post_title" value="제목" disabled/>
                         </div>
                         <div class="btn-box">
                             <button type="button" class="post-delete-btn">삭제</button>
@@ -30,7 +30,7 @@
                         </div>
                     </div>
                     <div class="post-content-info">
-                        <textarea name="post_content" readonly>글 내용</textarea>
+                        <textarea name="post_content" disabled>글 내용</textarea>
                     </div>
                     <div class="page-into">
                         <div class="page-list"><a href="/post/postList.html">목록</a></div>
