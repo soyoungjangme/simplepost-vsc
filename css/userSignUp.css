@@ -46,7 +46,7 @@ p {margin: 0;}
     width: 20%;
 }
 
-input {
+.info-group input {
     padding: 5px;
     font-size: small;
 }
@@ -58,7 +58,6 @@ input {
 
 .input-group {
     display: flex;
-    align-items: center;
     gap: 10px;
 }
 
@@ -68,6 +67,7 @@ input {
     grid-template-rows: auto auto;
     gap: 5px;
     margin-bottom: 10px;
+    align-items: center;
 }
 
 .info-id-group > p {
