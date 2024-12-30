@@ -63,6 +63,24 @@ p {
     float: right;
 }
 
+.post-delete-btn {
+    all: unset;
+    color: #999;
+    border: 1px solid #999;
+    border-radius: 2px;
+    padding: 2px 3px;
+    font-size: small;
+}
+
+.post-modify-btn {
+    all: unset;
+    color: #00249cd5;
+    border: 1px solid #00249cd5;
+    border-radius: 2px;
+    padding: 2px 3px;
+    font-size: small;
+}
+
 .post-content-info {
     margin-bottom: 20px;
 }
@@ -84,7 +102,7 @@ p {
 .page-list {
     float: right;
     border-radius: 3px;
-    background-color: #2e2e2e;
+    background-color: #474747;
     padding: 2px 10px;
 }
 
